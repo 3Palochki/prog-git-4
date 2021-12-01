@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+  }
+.html{
+    padding-top: none;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/jjloL1COohY/maxresdefault.jpg);
+    background-repeat:repeat-y;
+    background-size: 100% 100%;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+/* Header */
+.header{
+    display: block;
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.flex-item{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Section */
+.flex-container1{
+    margin-top: 200px;
+    display: flex;
+    background-color: darkolivegreen;
+    border: 5px solid darksalmon;
+    height: 350px;
+}
+.flex-item1{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.image1{
+    height: 100px;
+    width: 100px;
+}
+.image1:hover{
+    cursor: pointer;
+}
+.image3{
+    height: 100px;
+    width: 100px;
+}
+.image3:hover{
+    cursor: pointer;
+}
+.image4{
+    height: 100px;
+    width: 100px;
+}
+.image4:hover{
+    cursor: pointer;
+}
+.image2:hover{
+    cursor: pointer;
+}
+.image2{
+    height: 100px;
+    width: 125px;
+}
+.flex-container2{
+    padding-top: 50px;
+    display: flex;
+    width: 181%;
+    height: 30%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.flex-item3{
+    padding-left: 50px;
+    display: inline;
+}
